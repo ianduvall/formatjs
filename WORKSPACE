@@ -254,8 +254,8 @@ http_archive(
     name = "rules_rust",
     # Workaround for https://github.com/bazelbuild/rules_rust/issues/1330
     patches = ["//tools:rules_rust.patch"],
-    sha256 = "324c2a86a8708d30475f324846b35965c432b63a35567ed2b5051b86791ce345",
-    urls = ["https://github.com/bazelbuild/rules_rust/releases/download/0.13.0/rules_rust-v0.13.0.tar.gz"],
+    sha256 = "59e7afd6ecf6433b4194303cf095fa03537bd92b9c0f557c941b1a9623344d38",
+    urls = ["https://github.com/bazelbuild/rules_rust/releases/download/0.48.0/rules_rust-v0.48.0.tar.gz"],
 )
 
 load("@rules_rust//crate_universe:defs.bzl", "crates_repository")
